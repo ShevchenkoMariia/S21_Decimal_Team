@@ -169,15 +169,6 @@ int32_t s21_is_equal_null_big(s21_big_decimal value);
 s21_decimal s21_div_integer_part(s21_decimal value_1, s21_decimal value_2,
                                  s21_decimal *result);
 
-// // ****************************** output функции печати децимал числа
-// // ******************************
-void print_bin(s21_decimal value);
-void print_hex(s21_decimal value);
-void print_dec(s21_decimal value);
-// //  печать биг децимал
-// void print_bin_big(s21_big_decimal value);
-// void print_dec_big(s21_big_decimal value);
-
 // ****************************** shift битовый сдвиг влево и вправо
 // ******************************
 s21_decimal left_shift(s21_decimal value, int n);
@@ -251,10 +242,5 @@ int beginning(int arr[]);
 int first_5_bits(int arr[], int index);
 int finding_the_first_divisible(int first_num, int *index);
 void filling_in_the_array(s21_decimal src, int *arr);
-
-//=======truncate
-int beginning(int arr[]);
-int first_5_bits(int arr[], int index);
-int finding_the_first_divisible(int first_num, int *index);
 
 #endif
