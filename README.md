@@ -1,16 +1,26 @@
 # s21_decimal
 
-Implementation of your own s21_decimal.h library.
+Implementation of the proprietary library s21_decimal.h.
+
+A group project. My experience gained as a result of the project:
+- implementation of a function for working with decimal numbers that guarantees support for conversion operations between int, float and decimal types;
+- compliance with C11 standards and principles of structured programming, as well as Google Style coding style;
+- debugging code using unit tests using the Check library;
+- implementation of error handling when converting numbers, including cases of overflow and invalid values;
+- development of algorithms for efficient work with binary representation of numbers;
+- participated in a group project, interacting with other developers to achieve common goals and meet deadlines.
+
+I have implemented all the converter functions and s21_truncate.
 
 The russian version of the task can be found in the repository.
 
 ## Contents
 
-1. [Chapter I](#chapter-i)   
+1. [Chapter I](#chapter-i)  
    1.1. [Introduction](#introduction)
-2. [Chapter II](#chapter-ii)   
+2. [Chapter II](#chapter-ii)  
    2.1. [Information](#information)
-3. [Chapter III](#chapter-iii)   
+3. [Chapter III](#chapter-iii)  
    3.1. [Part 1](#part-1-implementation-of-the-decimalh-library-functions)
 
 ## Chapter I
