@@ -8,7 +8,7 @@ A group project. My experience gained as a result of the project:
 - debugging code using unit tests using the Check library;
 - implementation of error handling when converting numbers, including cases of overflow and invalid values;
 - development of algorithms for efficient work with binary representation of numbers;
-- participated in a group project, interacting with other developers to achieve common goals and meet deadlines.
+- participate in a group project, interact with other developers to achieve common goals and meet deadlines.
 
 I have implemented all the converter functions and s21_truncate.
 
